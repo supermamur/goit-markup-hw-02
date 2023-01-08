@@ -1,0 +1,143 @@
+/* 
+
+--Font Colors--
+Main Color - #2E2F42
+Secondary Color - #434455
+Light Colors - 
+#FFFFFF
+#E7E9FC
+Blue color - #4D5AE5
+
+--Background colors-- 
+Main Color - #FFFFFF
+Secondary color -#2E2F42
+Section ligth color - #F4F4FD
+
+Botton dark blue color - #404BBF
+Bottom light Blue color - #E5E5E5
+
+
+--Font Size-- 
+Logo -18px 
+Main size - 20px
+Secondary - 16px
+
+*/
+/* Main style */
+
+body {
+  color: #2e2f42;
+  font-family: "Roboto", "sans-serif";
+}
+
+/*=== Common styling === */
+.navigation-items,
+.address_items,
+.portfolio_nav,
+.projects {
+  list-style: none;
+}
+.navigation-items_link,
+.address_items_action,
+.logo-link {
+  text-decoration: none;
+}
+
+/* ====Header====== */
+
+.header {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.navigation {
+}
+.logo-link {
+}
+.logo {
+  font-family: "Raleway", "sans-serif";
+  font-size: 18px;
+  font-weight: 800;
+  color: #2e2f42;
+}
+.logo span {
+  color: #4d5ae5;
+}
+
+.navigation-items {
+}
+.navigation-items_link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.address {
+}
+.address_items {
+}
+
+.address_items_action {
+  color: #434455;
+}
+
+/*====Main Content */
+
+.portfolio {
+}
+.portfolio_nav {
+}
+.portfolio_nav_item {
+  padding: 12px;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.portfolio_nav_item:hover,
+.portfolio_nav_item:active {
+  color: #fff;
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.projects {
+}
+.projects_proj {
+}
+.projects_proj_picture {
+}
+.projects_proj_title {
+  font-size: 20px;
+  color: #2e2f42;
+}
+.projects_proj_domain {
+  font-size: 16px;
+  color: #434455;
+}
+
+/*=====Footer====*/
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer_logo {
+}
+
+.footer_logo {
+  font-family: "Raleway", "sans-serif";
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+}
+.footer_logo span {
+  color: #4d5ae5;
+}
+
+.footer_cta {
+  color: #fff;
+  font-size: 16px;
+}
