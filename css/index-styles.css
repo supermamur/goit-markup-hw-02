@@ -1,0 +1,114 @@
+/* 
+
+--Font Colors--
+Main Color - #2E2F42
+Secondary Color - #434455
+Light Colors - 
+#FFFFFF
+#E7E9FC
+Blue color - #4D5AE5
+
+--Background colors-- 
+Main Color - #FFFFFF
+Secondary color -#2E2F42
+Section ligth color - #F4F4FD
+
+Botton dark blue color - #404BBF
+Bottom light Blue color - #E5E5E5
+
+
+--Font Size-- 
+Logo -18px 
+Main size - 20px
+Secondary - 16px
+
+*/
+
+/* Hero section */
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero__title {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.hero__cta {
+  padding: 16px 32px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  border: #4d5ae5;
+  border-radius: 4px;
+}
+
+/* Common styling */
+
+.features-item__title,
+.features-item__details,
+.domains__title,
+.team__title {
+  letter-spacing: 0.02em;
+}
+
+.domains__list,
+.features__list,
+.team__list {
+  list-style: none;
+}
+
+/* Features section */
+
+.features-item__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.features-item__details {
+  line-height: 1.5;
+  color: #434455;
+}
+
+.domains__title,
+.team__title {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+/* Domains */
+
+.domains {
+}
+
+.domains-item__picture {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #e7e9fc;
+}
+
+/* Team section*/
+
+.team__list {
+}
+.team__member {
+}
+.team-member__picture {
+}
+.team-member__title {
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.team-member__role {
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+}
