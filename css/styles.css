@@ -49,10 +49,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.navigation {
-}
-.logo-link {
-}
+
 .logo {
   font-family: "Raleway", "sans-serif";
   font-size: 18px;
@@ -63,16 +60,9 @@ body {
   color: #4d5ae5;
 }
 
-.navigation-items {
-}
 .navigation-items_link {
   font-weight: 500;
   color: #2e2f42;
-}
-
-.address {
-}
-.address_items {
 }
 
 .address_items_action {
@@ -81,12 +71,9 @@ body {
 
 /*====Main Content */
 
-.portfolio {
-}
-.portfolio_nav {
-}
 .portfolio_nav_item {
   padding: 12px;
+  line-height: 1.5;
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
@@ -103,12 +90,6 @@ body {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08);
 }
 
-.projects {
-}
-.projects_proj {
-}
-.projects_proj_picture {
-}
 .projects_proj_title {
   font-size: 20px;
   color: #2e2f42;
@@ -122,8 +103,6 @@ body {
 
 .footer {
   background-color: #2e2f42;
-}
-.footer_logo {
 }
 
 .footer_logo {
