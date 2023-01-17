@@ -24,73 +24,53 @@ Secondary - 16px
 
 */
 
+:root {
+  /*--Font Colors--*/
+  --main-font-color: #2e2f42;
+  --secondary-font-color: #434455;
+  --light-font-color: #ffffff;
+  --blue-color: #4d5ae5;
+
+  /*--background-colors-- */
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2e2f42;
+  --ligth-background-color: #f4f4fd;
+
+  --button-background-color: #404bbf;
+  --button-light-blue-color: #e5e5e5;
+  --border-color: #e7e9fc;
+
+  --cta-background-color: #4d5ae5;
+}
+
 /* Hero section */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--secondary-background-color);
 }
 .hero__title {
-  color: #fff;
-  font-weight: 700;
-  line-height: 1.2;
+  color: var(--light-font-color);
+  font-size: 56px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .hero__cta {
   padding: 16px 32px;
-  color: #fff;
+  color: var(--light-font-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
-  border: #4d5ae5;
+  background-color: var(--cta-background-color);
+  border: 1px solid transparent;
   border-radius: 4px;
-}
-
-/* Common styling */
-
-.features-item__title,
-.features-item__details,
-.domains__title,
-.team__title {
-  letter-spacing: 0.02em;
-}
-
-.domains__list,
-.features__list,
-.team__list {
-  list-style: none;
-}
-
-/* Features section */
-
-.features-item__title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #2e2f42;
-}
-.features-item__details {
-  line-height: 1.5;
-  color: #434455;
-}
-
-.domains__title,
-.team__title {
-  font-size: 36px;
-  color: #2e2f42;
-  line-height: 1.1;
-  font-weight: 700;
 }
 
 /* Domains */
 
-.domains {
-}
-
 .domains-item__picture {
   width: 360px;
   height: 300px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--border-color);
 }
 
 /* Team section*/
@@ -100,15 +80,6 @@ Secondary - 16px
 .team__member {
 }
 .team-member__picture {
-}
-.team-member__title {
-  font-weight: 500;
-  color: #2e2f42;
-  font-size: 20px;
-  line-height: 1.2;
-}
-.team-member__role {
-  font-size: 16px;
-  color: #434455;
-  line-height: 1.5;
+  width: 264px;
+  height: 260px;
 }
