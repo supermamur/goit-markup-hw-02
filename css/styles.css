@@ -58,7 +58,7 @@ body {
 }
 .section__title {
   font-size: 36px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--main-font-color);
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -71,7 +71,6 @@ body {
   letter-spacing: 0.02em;
 }
 .section__describtion {
-  font-size: 16px;
   color: var(--secondary-font-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
